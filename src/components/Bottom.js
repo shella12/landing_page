@@ -24,7 +24,7 @@ function Bottom() {
           banking services through Sutton Bank and Lincoln Savings Bank, Members
           FDIC.
         </p>
-        <div className="flex">
+        <div className="flex social-icons">
         <a href="https://www.linkedin.com/in/-ayesha-arshad/">
           <img src={message} alt="linkedIn contact link" className="btn-images"/>
         </a>
@@ -36,6 +36,7 @@ function Bottom() {
         </a>
         </div>
       </div>
+      <img src={arrow} alt="arrow-down" className="arrow-image-2"/>
     </div>
   );
 }
